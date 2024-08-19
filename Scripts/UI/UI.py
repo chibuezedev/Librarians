@@ -40,7 +40,6 @@ frame2=customtkinter.CTkFrame(master=frame)
 frame2.pack(pady=40,padx=80,fill="both",expand=True,)
 
 resultText=customtkinter.CTkTextbox(master=frame2,font=("tahoma", 16))
-resultText.focus_lastfor()
 resultText.pack(pady=10,padx=10,fill="both",expand=True,)
 
 
